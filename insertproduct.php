@@ -15,7 +15,7 @@ $data=mysqli_query($connection,"select * from collection");
             <div class="col-lg-12 offset- ">
                 <h1>Upload Product</h1>
                 <hr><hr><hr>
-                <form action="#" method="POST">
+                <form action="./productlogic.php" enctype="multipart/form-data" method="POST">
                  <div class="row">
                     <div class="col-md-6 mt-4">
                            <input type="text" placeholder="Enter Product Name" class="form-control mt-4"  name="name">
